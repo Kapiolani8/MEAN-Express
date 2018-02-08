@@ -6,7 +6,7 @@ var bodyParser  = require("body-parser");
 var app         = express();
 
 var session     = require("express-session");
-app.use(session({ secret: "eduardobaik" }));
+app.use(session({ secret: "supersecretreallysecretsecret" }));
 
 app.use(bodyParser.urlencoded({ extended:true }));
 
